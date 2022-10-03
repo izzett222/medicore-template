@@ -158,14 +158,11 @@ html,body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.card__text {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    gap: 10px;
 }
 .card__icons {
     display: flex;
-    gap: 4px;
+    gap: 22px;
 }
 
 
@@ -258,6 +255,9 @@ html,body {
 }
 .experts__body {
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
     padding-top: 42px;
     position: relative;
 }
@@ -291,13 +291,13 @@ html,body {
     margin-left: auto;
     margin-right: auto;
 }
-.team__title {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.team__text {
-    max-width: 470px;
+
+.team__header {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
     margin-bottom: 112px;
+    max-width: 470px;
 }
 
 /**
@@ -314,13 +314,15 @@ html,body {
     padding-bottom: 160px;
     text-align: center;
 }
-.newsletter__text {
+.newsletter__header {
     max-width: 470px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 80px;
-}
-.newsletter__title {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }
 
 .newsletter__form {

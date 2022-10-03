@@ -83,6 +83,10 @@ html,body {
     border: 2px solid #1BA0AB;
     background-color: transparent;
 }
+.button--right-corner {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 
 /**
 =================================================
@@ -333,10 +337,6 @@ html,body {
 .newsletter__input {
     flex: 1;
     margin-left: -8px;
-}
-.newsletter__button {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
 }
 .input--placeholder::placeholder {
     font-family: 'Montserrat', sans-serif;

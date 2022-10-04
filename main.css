@@ -26,6 +26,10 @@ html,body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+.input--full {
+    flex: 1;
+    margin-left: -8px;
+}
 /**
 =================================================
 ================== tags =================
@@ -333,10 +337,6 @@ html,body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-}
-.newsletter__input {
-    flex: 1;
-    margin-left: -8px;
 }
 .input--placeholder::placeholder {
     font-family: 'Montserrat', sans-serif;

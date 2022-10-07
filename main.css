@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/**
+=================================================
+================== input =================
+==================================================
+**/
+.input {
+    display: inline-block;
+    padding: 15px 20px;
+    border: 1px solid #E6E6E6;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input--full {
+    flex: 1;
+    margin-left: -8px;
+}
+/**
+=================================================
+================== tags =================
+==================================================
+**/
+
+.tag {
+    color: #1BA0AB;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+
+/**
+=================================================
+================== title =================
+==================================================
+**/
+
+.title {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    color: #252B42;
+}
+.title--lg {
+    font-size: 58px;
+    line-height: 80px;
+}
+.title--sm {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+/**
+=================================================
+================== buttons =================
+==================================================
+**/
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #1BA0AB;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.button--secondary {
+    color: #1BA0AB;
+    border: 2px solid #1BA0AB;
+    background-color: transparent;
+}
+.button--right-corner {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/**
+=================================================
+================== text =================
+==================================================
+**/
+
+.text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.text--lg {
+    font-size: 20px;
+    line-height: 30px;
+}
+.text--sm {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/**
+=================================================
+================== links =================
+==================================================
+**/
+.link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #737373;
+    text-decoration: none; 
+}
+.link--blue {
+    color: #1BA0AB;
+}
+
+/**
+=================================================
+================== list =================
+==================================================
+**/
+.list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.list__item {
+    flex: 1;
+}
+/**
+=================================================
+================== cards =================
+==================================================
+**/
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 19px;
+}
+.card__img-wrapper, .card__body {
+    flex: 1;
+}
+.card__img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+.card__body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card__icons {
+    display: flex;
+    gap: 22px;
+}
+
+
+
+
+
+/**
+=================================================
+================== header =================
+==================================================
+**/
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-color: #FFF5F0;
+    height: 90px;
+}
+.header__links {
+    display: flex;
+    width: 1100px;
+    gap: 21px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    color: #252B42;
+}
+.header__item--big-gap {
+    margin-right: 67px;
+}
+.header__item--medium-gap {
+    margin-right: 45px;
+}
+.header__item--auto-gap {
+    margin-right: auto;
+}
+
+
+
+
+/**
+=================================================
+================== main section =================
+==================================================
+**/
+.banner {
+    height: 686px;
+    background-color: #FFF5F0;
+    display: flex;
+    align-items: center;
+}
+.banner__card {
+    margin-left: 132px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    max-width: 542px;
+}
+.banner__button-container {
+    display: flex;
+    gap: 10px;
+}
+
+/**
+=================================================
+================== experts section =================
+==================================================
+**/
+
+.experts {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 144px;
+    max-width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.experts__img-wrapper, .experts__body {
+    flex: 1;
+}
+.experts__body {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-top: 42px;
+    position: relative;
+}
+.experts__body-border {
+    width: 94px;
+    border-bottom: 7px solid #E74040;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.experts__title {
+    margin-bottom: 35px;
+}
+.experts__text {
+    margin-bottom: 35px;
+}
+.experts__img-wrapper {
+    height: 550px;
+    width: 520px;
+}
+
+/**
+=================================================
+================== team section =================
+==================================================
+**/
+
+.team {
+    margin-bottom: 112px;
+    max-width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team__header {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 112px;
+    max-width: 470px;
+}
+
+/**
+=================================================
+================== newsletter section =================
+==================================================
+**/
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF5F0;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+.newsletter__header {
+    max-width: 470px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.newsletter__form {
+    display: flex;
+    max-width: 688px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.input--placeholder::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
